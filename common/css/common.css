@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400i|Yrsa');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.87);
+  background-color: rgba(0,0,0,0);
+}
+
+header>div:first-child{
+	height: 25px;
+}
+
+#gnav{
+	margin: 20px auto 50px;
+}
+
+.container{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+ul{
+	margin-bottom: 0;
+}
+
+.row{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.modal{
+	bottom: auto;
+}
+
+.modal-content{
+	background-color: rgba(0,0,0,0);
+	border: none;
+	border-radius: 0;
+}
+
+label{
+	margin-bottom: 0;
+	font-weight: 400;
+}
+
+a:hover{
+	color: #343434;
+	text-decoration: none;
+}
+
+.btn:hover{
+	color: #FFF;
+}
+
+.btn:focus{
+	color: #FFF;
+	outline: none;
+}
+
+#btn-kalkulator:hover{
+	font-size: 115%;
+}
+
+.caption{
+	height: 180px !important;
+}
+
+.f-title{
+	font-size: 175%;
+}
+
+.f-small{
+	font-size: 80%;
+}
+
+.f-medium{
+	font-size: 100%;
+}
+
+.f-large{
+	font-size: 115%;
+}
+
+.sub-title{
+	font-size: 125%;
+	text-decoration: underline;
+}
+
+.cart a{
+	color: black;
+}
+
+.cart a:hover{
+	text-decoration: none;
+}
+
+.cart span{
+	padding: 10px;
+}
+
+.topThumbnail h4{
+	width: 50%;
+	display: inline-block;
+	vertical-align: top;
+}
+.inner-me{
+	width: 95%;
+	margin:0 auto;
+}
+.inner-me ul li {
+	margin-bottom: 10px;
+}
+footer{
+	padding:30px 0;
+	background-color: #EEEEEE !important;
+}
+
+.carousel-slider .carousel-item img{
+	margin-top: -65px;
+}
+
+.carousel-fixed-item p{
+	padding: 30px;
+	background-color: rgba(217,217,217,0.82);
+}
+
+.list_bank tr{
+	width: 33.33%;
+}
+
+.list_bank td{
+	text-align: center;
+}
+
+.list_bank tr:last-child{
+	font-size: 150%;
+}
+
+.list_bank img{
+	width: 50%;
+}
